@@ -11,12 +11,7 @@ const About = ({ message }) => {
     <div className="container">
       <h2>About Page</h2>
       <p>{message ? message : defaultMessage}</p>
-      {message && (
-        <p>
-          Welcome to my website this website is all about the to do list Page
-          created in this website
-        </p>
-      )}
+      {message && <p>This is my website, you can sit back and relax.</p>}
     </div>
   );
 };
